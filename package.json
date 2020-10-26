@@ -1,0 +1,52 @@
+{
+  "name": "worldspace_client",
+  "version": "0.1.0",
+  "description": "World space helps you find information related to a Country.",
+  "main": "Main.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunpappu/worldspace_client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varunpappu/worldspace_client/issues"
+  },
+  "homepage": "https://github.com/varunpappu/worldspace_client#readme",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.7.2",
+    "axios": "^0.21.0",
+    "exceljs": "^4.1.1",
+    "file-saver": "^2.0.2",
+    "leaflet": "^1.7.1",
+    "leaflet-geosearch": "^3.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^2.7.0",
+    "react-leaflet-control": "^2.1.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "@types/file-saver": "^2.0.1",
+    "@types/leaflet-geosearch": "^2.7.1",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-leaflet": "^2.5.2",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.6",
+    "typescript": "^4.0.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
