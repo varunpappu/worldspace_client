@@ -1,2 +1,2 @@
-# world_space
-World space helps you find information related to a location.
+# World Space
+World space helps you find information related to a Country.
